@@ -4871,8 +4871,8 @@ nav.pagination .next:hover i, nav.pagination .prev:hover i {
   padding: 10px 9px;
   margin: 0 5px;
   border-radius: 19px;
-  /*width: 37px;*/
-  /*height: 38px;*/
+  width: 37px;
+  height: 38px;
   background-color: #2d5593;
 }
 
