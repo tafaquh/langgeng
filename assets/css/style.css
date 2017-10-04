@@ -762,6 +762,15 @@ a:hover {
   width: 100%;
 }
 
+.title-text h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #212121;
+  text-transform: uppercase;
+  padding-left: 10px;
+  position: relative;
+}
+
 .title-text h3 {
   font-weight: 700;
   font-size: 42px;
@@ -2359,7 +2368,11 @@ ul.tabs.title p {
   width: 40%;
   height: 100%;
   object-position: center;
+  object-fit: cover;/*
+  width: 100% !important;
+  height: 400px !important;
   object-fit: cover;
+  object-position: center;*/
 }
 
 .banner-home3 .col-md-4 .text {
@@ -2403,7 +2416,7 @@ ul.tabs.title p {
   color: #e71825;
 }
 
-.banner-home3 .col-md-4 .item {
+.banner-home3 .col-md-4 .item{
   background: #e7e7e7;
   display: inline-block;
   width: 100%;
@@ -2417,6 +2430,53 @@ ul.tabs.title p {
 
 .banner-home3 .col-md-4 .item:hover {
   box-shadow: -10px 17px 40px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.banner-home3 .col-md-6 .item{
+  background: #fff;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.banner-home3 .col-md-6 .item:hover {
+  box-shadow: -10px 17px 40px 0px rgba(0, 0, 0, 0.3);
+}
+
+.banner-home3 .col-md-6 .images img {
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner-home3 .col-md-12 .item{
+  background: #fff;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.banner-home3 .col-md-12 .item:hover {
+  box-shadow: -10px 17px 40px 0px rgba(0, 0, 0, 0.3);
+}
+
+.banner-home3 .col-md-12 .images img {
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover;
+  object-position: center;
 }
 
 .hot-deals {
@@ -4556,7 +4616,7 @@ ul.tabs.title p {
 .pagination-container {
   display: inline-block;
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 
 nav.pagination {
