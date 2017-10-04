@@ -9900,3 +9900,9 @@ nav.pagination {
   padding-bottom: 50px;
   padding-top: 50px !important;
 }
+.bottom-product-footer .product .col-md-7 .product-content {
+  padding-left: 0;
+}
+.bottom-product-footer .product .col-md-7 .product-content a{
+  font-size: 20px;
+}
