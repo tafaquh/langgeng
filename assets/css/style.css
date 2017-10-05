@@ -4871,8 +4871,8 @@ nav.pagination .next:hover i, nav.pagination .prev:hover i {
   padding: 10px 9px;
   margin: 0 5px;
   border-radius: 19px;
-  /*width: 37px;*/
-  /*height: 38px;*/
+  width: 37px;
+  height: 38px;
   background-color: #2d5593;
 }
 
@@ -9899,4 +9899,10 @@ nav.pagination {
   background: #f6f6f6;
   padding-bottom: 50px;
   padding-top: 50px !important;
+}
+.bottom-product-footer .product .col-md-7 .product-content {
+  padding-left: 0;
+}
+.bottom-product-footer .product .col-md-7 .product-content a{
+  font-size: 20px;
 }
